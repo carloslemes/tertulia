@@ -1,4 +1,9 @@
 Tertulia::Application.routes.draw do
+
+  root :to => 'home'
+
+  #match '/signup', :to => 'home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
